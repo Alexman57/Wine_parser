@@ -17,26 +17,6 @@ namespace Wine_parser
         public static async void JsonCreat(ParsingResult result)
         {
 
-            //Regex regex = new Regex(@"\d+");
-
-            // Match match = regex.Match(Arcicul);
-            // string cleaned_price = Price.Replace(" ₽", "");
-            // string price1 = cleaned_price.Replace(" ", "");
-
-            // string cleaned_old_price = OldPrice.Replace(" ₽", "");
-            // string price2 = cleaned_old_price.Replace(" ", "");
-
-            //  CultureInfo culture = CultureInfo.CreateSpecificCulture("en-US");
-
-            // var Rating1 = double.TryParse(Rating, NumberStyles.Any, culture, out double number);
-
-
-            // ParsingResult result = new;
-
-            //var result = ParsingResult;
-
-           // Console.WriteLine(ParsingResult.);
-
             var data = new
             {
                 name = result.ParsedName,
@@ -52,9 +32,11 @@ namespace Wine_parser
 
             string jsonData = JsonConvert.SerializeObject(data, Formatting.Indented);
 
-            File.WriteAllText("wine.json", jsonData);
+            string path = Path.Combine("D:\\VisualStudio Projects\\Wine_parser", "wine.json");
 
-            Console.WriteLine("JSON данные записаны в файл person.json");
+            File.WriteAllText(path, jsonData);
+
+            Console.WriteLine("JSON данные записаны в файл wine.json");
         }
     }
 }

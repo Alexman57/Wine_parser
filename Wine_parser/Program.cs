@@ -54,7 +54,7 @@ class MyClass
             };
 
             JsonHelper.JsonCreat(combinedResult);
-            await Task.Delay(60000);
+            await Task.Delay(30000);
         }
 
         cts.Cancel();
