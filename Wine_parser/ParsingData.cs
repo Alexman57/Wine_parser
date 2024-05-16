@@ -6,17 +6,17 @@ using System.Threading.Tasks;
 
 namespace Wine_parser
 {
-    public struct ParsingResult
+    public class ParsingResult
     {
-        public string ParsedName { get; set; }
-        public int ParsedPrice { get; set; }
-        public int ParsedOldPrice { get; set; }
-        public double ParsedRating { get; set; }
-        public string ParsedVolume { get; set; }
-        public int ParsedArticul { get; set; }
-        public string ParsedRegion { get; set; }
-        public string ParsedUrl { get; set; }
-        public string[] ParsedPictures { get; set; }
+        public string Name { get; set; }
+        public int Price { get; set; }
+        public int OldPrice { get; set; }
+        public double Rating { get; set; }
+        public string Volume { get; set; }
+        public int Articul { get; set; }
+        public string Region { get; set; }
+        public string Url { get; set; }
+        public string[] Pictures { get; set; }
 
     }
 
