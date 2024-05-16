@@ -1,0 +1,16 @@
+{
+  "name": "Игристое вино Prosecco Brut, Bruni",
+  "price": 1218,
+  "oldPrice": 1740,
+  "rating": 4.8,
+  "volume": "0.75 л",
+  "arcicul": 138416,
+  "region": "Москва",
+  "url": "https://simplewine.ru/catalog/product/bruni_prosecco_brut_2021_075_138416/",
+  "pictures": [
+    "https://static.simplewine.ru/upload/iblock/6f7/6f720dd24d2906d105a063cdcbe828f4.png",
+    "https://static.simplewine.ru/upload/iblock/531/531b6302b8c30d770c496f57b8721157.png",
+    "https://static.simplewine.ru/upload/iblock/07c/07c71e64cb7eacb23a4e19b963733a93.jpg",
+    "https://static.simplewine.ru/upload/iblock/526/5267a6a79306c5f90ee8869ee7a5972a.png"
+  ]
+}
